@@ -147,7 +147,7 @@ class PCD:
           
         pcd_bbox.color = (1, 0, 0)
 
-        o3d.visualization.draw_geometries([pcd, pcd_bbox_center, pcd_bbox,pcd_center])
+        #o3d.visualization.draw_geometries([pcd, pcd_bbox_center, pcd_bbox,pcd_center])
 
         return pcd_bbox_center_np, pcd_bbox
         
